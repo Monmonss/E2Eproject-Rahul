@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-20T12:29:35.846Z",
+        "line": 12,
+        "name": "Positive login",
+        "description": "",
+        "id": "login-application;positive-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9312348900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser",
+            "match": {
+              "location": "steps.MyStepdefs.initialize_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7532784900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on site Login page",
+            "match": {
+              "location": "steps.MyStepdefs.click_on_site_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524998900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login to using login \"monia@gmail.com\" and password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"monia@gmail.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps.MyStepdefs.userLoginToUsingLoginAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1657015400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "steps.MyStepdefs.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T12:29:54.904Z",
+        "line": 13,
+        "name": "Positive login",
+        "description": "",
+        "id": "login-application;positive-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8476143400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser",
+            "match": {
+              "location": "steps.MyStepdefs.initialize_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7101995800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on site Login page",
+            "match": {
+              "location": "steps.MyStepdefs.click_on_site_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514000500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login to using login \"second@onrt.pl\" and password \"passwordSecond\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"second@onrt.pl\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"passwordSecond\"",
+                  "offset": 56
+                }
+              ],
+              "location": "steps.MyStepdefs.userLoginToUsingLoginAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1567095700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "steps.MyStepdefs.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login application",
+    "description": "",
+    "id": "login-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]

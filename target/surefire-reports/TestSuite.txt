@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 32.522 s <<< FAILURE! - in TestSuite
+CheckingText(academy_rahul.CheckingTextTest)  Time elapsed: 0.082 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
+	at academy_rahul.CheckingTextTest.CheckingText(CheckingTextTest.java:41)
+
+SignIn(academy_rahul.CheckingTextTest)  Time elapsed: 1.098 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (1878, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5200000002', ip: '192.168.1.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cheil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dfc55197e8c2d7ac08986758a9c8aded
+	at academy_rahul.CheckingTextTest.SignIn(CheckingTextTest.java:48)
+
+SignIn(academy_rahul.CheckingTextTest)  Time elapsed: 1.125 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (1878, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5200000002', ip: '192.168.1.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cheil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dfc55197e8c2d7ac08986758a9c8aded
+	at academy_rahul.CheckingTextTest.SignIn(CheckingTextTest.java:48)
+

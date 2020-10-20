@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="16944" started-at="2020-10-16T16:11:46 CEST" finished-at="2020-10-16T16:12:03 CEST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="16944" started-at="2020-10-16T16:11:46 CEST" finished-at="2020-10-16T16:12:03 CEST">
+      <class name="academy_rahul.CheckingTextTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:academy_rahul.CheckingTextTest@3af9c5b7]" name="setUp" is-config="true" duration-ms="9722" started-at="2020-10-16T16:11:46 CEST" finished-at="2020-10-16T16:11:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CheckingBar()[pri:0, instance:academy_rahul.CheckingTextTest@3af9c5b7]" name="CheckingBar" duration-ms="180" started-at="2020-10-16T16:11:56 CEST" finished-at="2020-10-16T16:11:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingBar -->
+        <test-method status="FAIL" signature="CheckingText()[pri:0, instance:academy_rahul.CheckingTextTest@3af9c5b7]" name="CheckingText" duration-ms="62" started-at="2020-10-16T16:11:56 CEST" finished-at="2020-10-16T16:11:56 CEST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES1] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at academy_rahul.CheckingTextTest.CheckingText(CheckingTextTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingText -->
+        <test-method status="PASS" signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:academy_rahul.CheckingTextTest@3af9c5b7]" name="SignIn" duration-ms="2432" started-at="2020-10-16T16:11:57 CEST" data-provider="Details" finished-at="2020-10-16T16:11:59 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mon@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MonPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:academy_rahul.CheckingTextTest@3af9c5b7]" name="SignIn" duration-ms="392" started-at="2020-10-16T16:11:59 CEST" data-provider="Details" finished-at="2020-10-16T16:12:00 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dddd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:academy_rahul.CheckingTextTest@3af9c5b7]" name="tearDown" is-config="true" duration-ms="3054" started-at="2020-10-16T16:12:00 CEST" finished-at="2020-10-16T16:12:03 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- academy_rahul.CheckingTextTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

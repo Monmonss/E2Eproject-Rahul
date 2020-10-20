@@ -1,0 +1,6 @@
+16:35:45.515 [main] INFO  academy_rahul.base.Base - Bar has shown successfully
+16:56:00.787 [TestNG-tests-1] INFO  academy_rahul.base.Base - Driver is initialization
+16:56:01.266 [TestNG-tests-1] INFO  academy_rahul.base.Base - Bar has shown successfully
+16:56:44.359 [TestNG-tests-1] INFO  academy_rahul.base.Base - Driver is initialization
+16:56:44.516 [TestNG-tests-1] INFO  academy_rahul.base.Base - Bar has shown successfully
+17:05:40.909 [TestNG-tests-1] INFO  academy_rahul.base.Base - Driver is initialization
